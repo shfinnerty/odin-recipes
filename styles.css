@@ -5,7 +5,7 @@
 
 
 div{
-    width: 300px;
+    width: auto;
     border: 5px solid red;
     padding: 50px;
     margin: 20px;
@@ -13,31 +13,43 @@ div{
 }
 
 h1{
-    color: black;
+    color: white;
     font-size: 42px;
     text-align: center;
     text-decoration: underline;
 }
 
 h2{
-    color: black;
+    color: white;
     text-align: center;
 }
 
+h3{
+    color: white;
+    text-align: center;
+}
 
-li::before{
+ul .liprimary::before{
     content:"☛";
-    color:black;
+    color: white;
     display: inline-block;
     width: 1em;
     margin-left: -2em;
 }
 
-li{
+ul li::before{
+    content:"•";
+    color: white;
+    display: inline-block;
+    width: 1em;
+    margin-left: -2em;
+}
+
+ul{
     list-style: none;
 }
 
 a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
