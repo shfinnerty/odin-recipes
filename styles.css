@@ -1,8 +1,9 @@
 /*index.html - Recipes */
 *{
     font-family: Verdana, Arial, sans-serif;
+    box-sizing: border-box;
+    border: 1px solid red
 }
-
 
 div{
     width: auto;
@@ -52,4 +53,9 @@ ul{
 a{
     color: white;
     text-decoration: none;
+}
+
+li{
+    display: block;
+    margin: 10px;
 }
