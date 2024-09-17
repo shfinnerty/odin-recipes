@@ -30,22 +30,6 @@ h3{
     text-align: center;
 }
 
-ul .liprimary::before{
-    content:"☛";
-    color: white;
-    display: inline-block;
-    width: 1em;
-    margin-left: -2em;
-}
-
-ul li::before{
-    content:"•";
-    color: white;
-    display: inline-block;
-    width: 1em;
-    margin-left: -2em;
-}
-
 ul{
     list-style: none;
 }
@@ -53,9 +37,11 @@ ul{
 a{
     color: white;
     text-decoration: none;
+    display: block;
 }
 
 li{
     display: block;
-    margin: 10px;
+    margin:10px;
+    text-align: center;
 }
